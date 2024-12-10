@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Vitalis Care</title>
+    <link rel="stylesheet" href="styles-dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+        </header>
+        
+        <!-- Botão de Retorno -->
+        <div class="button-container">
+            <a href="cliente.html" class="btn">Voltar</a>
+        </div>
+
+        <main>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="icon bg-blue">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <div class="details">
+                        <h3>Clientes Atendidos</h3>
+                        <p id="clientesAtendidos">0</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon bg-orange">
+                        <i class="fas fa-user-clock"></i>
+                    </div>
+                    <div class="details">
+                        <h3>Clientes Pendentes</h3>
+                        <p id="clientesPendentes">0</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon bg-green">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="details">
+                        <h3>Feedback Recentes</h3>
+                        <p id="feedbackRecentes">0</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon bg-red">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="details">
+                        <h3>Relatórios de Atividade</h3>
+                        <p id="relatoriosAtividade">0</p>
+                    </div>
+                </div>
+            </div>
+            <section class="feedback-list">
+                <h2>Feedback Recentes</h2>
+                <ul id="feedbackList">
+                    <!-- Lista de feedback será gerada aqui -->
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="scripts-dashboard.js"></script>
+</body>
+</html>

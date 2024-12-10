@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações - Vitalis Care</title>
+    <link rel="stylesheet" href="styles-configuracoes.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Configurações</h1>
+        </header>
+        <main>
+            <form id="configForm">
+                <label for="notificacoes">Notificações:</label>
+                <select id="notificacoes">
+                    <option value="ativado">Ativado</option>
+                    <option value="desativado">Desativado</option>
+                </select>
+                
+                <label for="tema">Tema:</label>
+                <select id="tema">
+                    <option value="claro">Claro</option>
+                    <option value="escuro">Escuro</option>
+                </select>
+
+                <button type="submit">Salvar Configurações</button><br>
+                <div class="button-container">
+                    <a href="cliente.html" class="btn">Voltar</a>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="scripts-configuracoes.js"></script>
+</body>
+</html>

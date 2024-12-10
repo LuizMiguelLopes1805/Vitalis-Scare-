@@ -1,0 +1,13 @@
+
+.history-item {
+    background: #87cefa;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.history-item:hover {
+    background-color: #b0e0e6;
+}

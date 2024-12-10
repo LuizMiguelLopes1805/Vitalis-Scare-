@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuários - Vitalis Care</title>
+    <link rel="stylesheet" href="styles-usuarios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="logovc.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Usuários</h1>
+        </header>
+        
+        <!-- Botão de Retorno -->
+        <div class="button-container">
+            <a href="cliente.html" class="btn">Voltar</a>
+        </div>
+
+        <main>
+            <section id="users-list">
+                <h2>Lista de Usuários</h2>
+                <ul id="list">
+                    <li data-nome="Maria Silva" data-email="maria.silva@example.com" data-funcao="Administrador">
+                        <strong>Maria Silva</strong> - Administrador
+                        <p>Email: maria.silva@example.com</p>
+                    </li>
+                    <li data-nome="João Santos" data-email="joao.santos@example.com" data-funcao="Gerente">
+                        <strong>João Santos</strong> - Gerente
+                        <p>Email: joao.santos@example.com</p>
+                    </li>
+                    <li data-nome="Ana Oliveira" data-email="ana.oliveira@example.com" data-funcao="Enfermeiro">
+                        <strong>Ana Oliveira</strong> - Enfermeiro
+                        <p>Email: ana.oliveira@example.com</p>
+                    </li>
+                    <li data-nome="Carlos Pereira" data-email="carlos.pereira@example.com" data-funcao="Recepcionista">
+                        <strong>Carlos Pereira</strong> - Recepcionista
+                        <p>Email: carlos.pereira@example.com</p>
+                    </li>
+                    <li data-nome="Julia Lima" data-email="julia.lima@example.com" data-funcao="Fisioterapeuta">
+                        <strong>Julia Lima</strong> - Fisioterapeuta
+                        <p>Email: julia.lima@example.com</p>
+                    </li>
+                    <li data-nome="Pedro Costa" data-email="pedro.costa@example.com" data-funcao="Nutricionista">
+                        <strong>Pedro Costa</strong> - Nutricionista
+                        <p>Email: pedro.costa@example.com</p>
+                    </li>
+                    <li data-nome="Claudia Rocha" data-email="claudia.rocha@example.com" data-funcao="Psicólogo">
+                        <strong>Claudia Rocha</strong> - Psicólogo
+                        <p>Email: claudia.rocha@example.com</p>
+                    </li>
+                    <li data-nome="Lucas Moreira" data-email="lucas.moreira@example.com" data-funcao="Assistente">
+                        <strong>Lucas Moreira</strong> - Assistente
+                        <p>Email: lucas.moreira@example.com</p>
+                    </li>
+                    <li data-nome="Mariana Alves" data-email="mariana.alves@example.com" data-funcao="Terapeuta Ocupacional">
+                        <strong>Mariana Alves</strong> - Terapeuta Ocupacional
+                        <p>Email: mariana.alves@example.com</p>
+                    </li>
+                    <li data-nome="Rafael Souza" data-email="rafael.souza@example.com" data-funcao="Acupunturista">
+                        <strong>Rafael Souza</strong> - Acupunturista
+                        <p>Email: rafael.souza@example.com</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="add-user">
+                <h2>Adicionar Novo Usuário</h2>
+                <form id="addUserForm">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <label for="funcao">Função:</label>
+                    <input type="text" id="funcao" required>
+                    <button type="submit">Adicionar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script src="scripts-usuarios.js"></script>
+</body>
+</html>
